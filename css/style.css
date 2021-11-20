@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+   
+}
+@font-face{
+    font-family:vazir;
+    src: url("font/vazir-FD.ttf"),url("font/vazir-FD.eot"),
+    url("font/vazir-FD.woff"), url("font/vazir-FD.woff2") ;
+}
+body{
+    font-family: vazir;
+    background-color: #e8e8e8;
+}
+#serch{
+    font-size:25px;
+    float: right;
+    margin-left: 3px;
+}
+#vorod{
+    font-size: 20px;
+    margin-top: 15px;
+}
+#iconv{
+    font-size: 25px;
+    float: right;
+    margin-top: 15px;
+    margin-left: 3px;
+}
+#tel{
+    font-size: 20px;
+    margin-top: 15px;
+  
+}
+#telphon{
+    font-size: 25px;
+    float: right;
+    margin-top: 15px;
+    margin-left: 3px;
+}
+.thumbnail:hover{
+    box-shadow: 5px 8px 10px black;
+}
+#main{
+    background-color: #e8e8e8;
+    display: flex;
+    flex-direction: row;
+}
+#main div{
+    height: 50px;
+
+}
+.n{
+    background-color: #f05454;
+    border: 1px solid #f05454;
+    width: 50px;
+   border-radius: 15%;
+   font-size: large;
+ 
+
+}
+.n:hover{
+    width: 55px;
+}
+#footer{
+    border-radius: 5px;
+    background-color: #222831;
+    color: #e8e8e8;
+    text-align: justify;
+    font-size: large;
+   margin: 0px auto;
+
+}
+#telgram{
+    font-size: 30px;
+    margin-top: 12px;
+    margin-left: 8px;
+}
+#insta{
+    font-size: 30px;
+    margin-top: 12px;
+    margin-left: 8px;
+}
+#maile{
+    font-size: 30px;
+    margin-top: 12px;
+    margin-left: 8px;
+}
+#s{
+    color: #f05454;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.pt-10{
+    padding-top: 10px !important;
+}
+
+
+.btn{
+    margin-right:2px;
+    margin-bottom: 5px;
+}
+.thumbnail{
+    margin: 15px auto;
+ 
+}
+.thumbnail>img{
+    margin-top: 5px;
+}
+.fa{
+    font-size: 18px;
+  
+}
+a{
+    color: black;
+}
+#serch{
+    font-size: 20px;
+}
+
+
+
+

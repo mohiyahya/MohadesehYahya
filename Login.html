@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>login</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap-rtl.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/font/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/login-style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/jquery-ui.js"></script>
+
+</head>
+<style>
+
+</style>
+
+<body>
+    <div class="row">
+        <div class="col-md-7">
+            <img src="img/si.jpg" class="img-responsive background-img" />
+        </div>
+        <div class="col-md-5">
+            <div class="row">
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-4 logo">
+                    <img src="img/signup.png" class="img-responsive" />
+                </div>
+                <div class="col-md-4">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 paddingcol">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label class="control-lable col-md-1 fa fa-envelope"></label>
+                            <input type="email" class="form-control col-md-11" placeholder="ایمیل :" />
+                        </div>
+                        <div class="form-group">
+                            <label class="control-lable col-md-1 fa fa-lock"></label>
+                            <input type="password" id="myInput" class="form-control col-md-11"
+                                placeholder="رمز عبور :" />
+                        </div>
+                        <div class="form-group">
+                            <label class="control-lable col-md-1"></label>
+                            <input type="button" class="form-control col-md-11" id="sabt" value="ورود" />
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 vorood">
+                                <span><a href="form.html">ایجاد حساب کاربری</a></span>
+                            </div>
+                            <div>
+                                <input type="checkbox" onclick="myFunction()">نمایش رمزعبور
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myInput");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+
+    </script>
+</body>
+
+</html>
